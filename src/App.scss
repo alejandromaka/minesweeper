@@ -1,0 +1,32 @@
+:global {
+  #app {
+    background: #aaa;
+    display: inline-block;
+    padding: 5px;
+  }
+}
+.header {
+  border-style: inset;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  padding: 5px;
+  text-align: center;
+}
+.sides {
+  background: black;
+  color: red;
+  flex: 0 0 33%;
+  font-family: 'Courier';
+  font-size: 26px;
+  line-height: 26px;
+}
+.gameButton {
+  flex: 0 0 33%;
+  font-size: 20px;
+  margin: 0;
+}
+.board {
+  border-style: inset;
+  margin: 1px;
+}
